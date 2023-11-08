@@ -29,7 +29,25 @@ function TocaSomSplash(){
 document.querySelector('.tecla_splash').onclick = TocaSomSplash;
 
 function TocaSomToim(){
-    document.querySelector('#som_tecla_toim').play;
+    document.querySelector('#som_tecla_toim').play();
 }
 
 document.querySelector('.tecla_toim').onclick = TocaSomPoim;
+
+function TocaSomPsh(){
+    document.querySelector('#som_tecla_psh').play();
+}
+
+document.querySelector('.tecla_psh').onclick = TocaSomPsh;
+
+function TocaSomTic(){
+    document.querySelector('#som_tecla_tim').play();
+}
+
+document.querySelector('.tecla_tim').onclick = TocaSomTim;
+
+function TocaSomTom(){
+    document.querySelector('#som_tecla_tom').play();
+}
+
+document.querySelector('.tecla_tom').onclick = TocaSomTom;
