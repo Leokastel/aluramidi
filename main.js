@@ -8,19 +8,19 @@ function TocaSomClap(){
     document.querySelector('#som_tecla_clap').play();
 }
 
-document.querySelector('.tecla_clap').onclick = TocaSomClap;
+document.querySelector('.tecla_clap').onclick = tocaSomClap;
 
 function TocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
 }
 
-document.querySelector('.tecla_tim').onclick = TocaSomTim;
+document.querySelector('.tecla_tim').onclick = tocaSomTim;
 
 function TocaSomPuff(){
     document.querySelector('#som_tecla_puff').play();
 }
 
-document.querySelector('.tecla_puff').onclick = TocaSomPuff;
+document.querySelector('.tecla_puff').onclick = tocaSomPuff;
 
 function TocaSomSplash(){
     document.querySelector('#som_tecla_splash').play();
@@ -44,7 +44,7 @@ function TocaSomTic(){
     document.querySelector('#som_tecla_tim').play();
 }
 
-document.querySelector('.tecla_tim').onclick = TocaSomTim;
+document.querySelector('.tecla_tim').onclick = tocaSomTim;
 
 function TocaSomTom(){
     document.querySelector('#som_tecla_tom').play();
